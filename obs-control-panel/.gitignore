@@ -1,0 +1,31 @@
+# Screenshots and recordings
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.webm
+*.mp4
+
+# Node modules (for Playwright)
+node_modules/
+package-lock.json
+
+# Deno
+.deno/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Test artifacts
+test-results/
+playwright-report/

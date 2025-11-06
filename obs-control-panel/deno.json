@@ -1,0 +1,19 @@
+{
+  "name": "@cliffy/obs-control-panel",
+  "version": "1.0.0",
+  "imports": {
+    "@cliffy/ansi": "../ansi/mod.ts",
+    "@cliffy/command": "../command/mod.ts",
+    "@cliffy/prompt": "../prompt/mod.ts",
+    "@cliffy/table": "../table/mod.ts",
+    "@cliffy/keypress": "../keypress/mod.ts",
+    "@std/fmt/colors": "jsr:@std/fmt@1/colors"
+  },
+  "tasks": {
+    "start": "deno run --allow-net --allow-read --allow-write --allow-env --allow-run main.ts",
+    "example": "deno run --allow-net --allow-read --allow-write --allow-env --allow-run examples/sample-play.ts"
+  },
+  "compilerOptions": {
+    "lib": ["deno.window", "deno.unstable"]
+  }
+}
